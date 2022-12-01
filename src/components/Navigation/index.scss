@@ -1,11 +1,11 @@
-$bg-color: #ee5253;
-$shadow-color: 1px 1px 5px rgba(0,0, 0, .5);
-$white-9: rgba(255, 255, 255, .9);
-$white-7: rgba(255, 255, 255, .7);
+$bg-color: #3641df;
+$shadow-color: 1px 1px 5px rgba(0, 0, 0, 0.5);
+$white-9: rgba(255, 255, 255, 0.9);
+$white-7: rgba(255, 255, 255, 0.7);
 
 .navbar {
-  width: 100%; 
-  height: 60px; 
+  width: 100%;
+  height: 60px;
   background-color: $bg-color;
   align-items: center;
   display: flex;
@@ -37,7 +37,7 @@ $white-7: rgba(255, 255, 255, .7);
         padding: 20px;
 
         &:hover {
-          background-color: #ff6b6b;
+          background-color: #1f98cf;
           color: $white-9;
         }
       }
